@@ -18,8 +18,8 @@
 .sun,
 .moon {
   position: absolute;
-  width: 50vmin;
-  height: 50vmin;
+  width: 450px;
+  height: 450px;
   border-radius: 50%;
 }
 .sun {
@@ -27,7 +27,7 @@
   animation-name: animate-sun;
 }
 .moon {
-  background-color: slategray;
+  background-color: rgb(133, 134, 135);
   animation-name: animate-moon;
 }
 @keyframes animate-sky {
@@ -45,7 +45,7 @@
     transform: translate(-100vmin);
   }
   50% {
-    background-color: black;
+    background-color: rgb(244, 228, 228);
   }
   to {
     transform: translateX(100vmin);
